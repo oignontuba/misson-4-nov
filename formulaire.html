@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleformulaire.css">
+    <title>Formulaire</title>
+</head>
+<body>
+    <h1>Formulaire</h1>
+    <div class="container"> 
+    <form action="">
+        <table border="0" width="50%" >
+            <tr> <td>        <Labelfor="Nom">Pseudo:</Label>
+            </td>  <td>        <input type="text" placeholder="entrez votre Pseudo" maxlength="20">
+            </td></tr>
+            <tr> <td><Labelfor="mot_de_passe">mot de passe:</Label> </td>  <td>        <input type="text" placeholder="entrez votre Mot de passe" maxlength="20">
+            </td></tr>
+            <tr> <td>        <Labelfor="email"> email:</Label>
+            </td>  <td>         <input type="email" placeholder="entrez votre email" maxlength="20">
+            </td></tr>
+            <tr><td>        <Labelfor="avatar"> avatar:</Label>
+            </td>  <td>        <input type="file" placeholder="choisir votre fichier " maxlength="20">
+            </td></tr>
+            <tr> <td>         <Labelfor="pays"> Pays:</Label>
+            </td> <td> <select name="pays" id="nomdepays">
+                <option value="">Sélectionnez un pays</option>
+                <option value="france">France</option>
+                <option value="espagne">Espagne</option>
+                <option value="italie">Italie</option>
+            </select> </td></tr>
+            <tr><td>        <Labelfor="fruits"> Quel type de fruit est ton préfére :</Label>
+            </td> <td><label for="poire">poire</label><br>
+                <input type="checkbox" id="poire" name="poire" maxlength="20"> </td></tr>
+                <tr> <td>        <Labelfor="naissance">  Date de naissance:</Label>
+                </td> <td>        <input type="date" placeholder="choisir votre date de naissances " maxlength="20">
+                </td></tr>
+                <tr> <td><label for="departement ">departement</label> <td><input type="number" placeholder="mettre le numereo de département " maxlength="20">
+                </td>
+                </td></tr>
+                
+        </table>
+        <button type="submit">Envoyer</button> <br>
+        <a href="index.html">site de l'agence</a>
+    </form>
+</div>
+</body>
+</html>
